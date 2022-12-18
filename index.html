@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css\normilize.css" />
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-main">
+        <section class="profile">
+          <div class="profile-image">
+            <img
+              src="assets\img\girls-coding.jpg"
+              alt="coding_girl"
+              width="300px"
+              height="300px"
+            />
+          </div>
+          <div class="profile-text">
+            <h2>about myself</h2>
+            <p>
+              Having started my career as an Accountant and Financial Manager, I
+              have always been interested in the digital sphere. Given the
+              opportunity to learn different programming languages at the
+              University, I took full advantage of this knowledge while studying
+              on IT courses related to Frontend Development. I am fully
+              concentrated on enhancement of my coding skills as well as
+              becoming an adept at creating a reusable code base and driving
+              real IT-project.
+            </p>
+          </div>
+        </section>
+        <section class="personal-info">
+          <div class="contacts-info">
+            <div class="education-info">
+              <h3>education</h3>
+              <hr />
+              <p>
+                Volgograd State University<br /><br />Institute of Economics and
+                Management<br />
+                Years: 2009-2015 Specialization: master’s degree in “Economy”<br />
+                Former member of the Institute of Professional Accountants
+              </p>
+            </div>
+            <div class="contact-info">
+              <h3>contacts</h3>
+              <hr />
+              <ul>
+                <li>tel: +7(977)5007539</li>
+                <li>email: davydovakaterina2022@gmail.com</li>
+                <li>
+                  GitHub:
+                  <a href="https://github.com/Ekaterina-2022">Ekaterina-2022</a>
+                </li>
+                <li>Discord: Ekaterina(@Ekaterina-2022)</li>
+                <li>Telegram: @Ekaterina_it2022</li>
+              </ul>
+            </div>
+          </div>
+          <div class="professional-info">
+            <div class="experience-info">
+              <ul>
+                <li>
+                  <h3>courses</h3>
+                  <ul>
+                    <li>Web-courses on the educating platform Stepik</li>
+                    <li>
+                      Study at IT-girls Programming School (Frontend
+                      Development)
+                    </li>
+                    <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>skills</h3>
+                  <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript Basics</li>
+                    <li>Bootstrap Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code, Jupyter Notebook</li>
+                    <li>Figma</li>
+                    <li>Tilda</li>
+                    <li>Python (basics)</li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>languages</h3>
+                  <ul>
+                    <li>Russian (native)</li>
+                    <li>
+                      English (B1-B2)<br />
+                      LCCI 1, 2, 3 levels IELTS 6.5 (March 2022)<br />
+                    </li>
+                    <li>French (A1)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="skills-info"></div>
+          </div>
+        </section>
+        <section class="coding-info">
+          <div class="coding-example">
+            <h3>code example</h3>
+            <p>
+              Sample calculator on GitHub
+              <a href="https://github.com/Ekaterina-2022/week_15.git"
+                >https://github.com/Ekaterina-2022/week_15.git</a
+              >
+            </p>
+            <code>
+              <pre><p>
+                var calc;
+
+                function calculation() {
+                  var a = Number(document.querySelector('[name="number1"]').value);
+                  var b = Number(document.querySelector('[name="number2"]').value);
+                  var result;
+                  switch (calc) {
+                    case "sum":
+                      result = a + b;
+                      break;
+                    case "sub":
+                      result = a - b;
+                      break;
+                    case "mult":
+                      result = a * b;
+                      break;
+                    case "div":
+                      if (b == 0) {
+                        result = "error";
+                      } else {
+                        result = a / b;
+                        break;
+                      }
+                  }
+                  document.getElementById("result").innerHTML = result;
+                }
+            </p></pre>
+            </code>
+          </div>
+          <div class="coding-projets">
+            <ul>
+              <h3>Training projects</h3>
+              <li>
+                Monito Project
+                <a href="https://github.com/Ekaterina-2022/Red_project.git"
+                  >https://github.com/Ekaterina-2022/Red_project.git</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <h3>Real project (in development)</h3>
+              <li>
+                Consilium
+                <a href="https://github.com/Ekaterina-2022/Consilium_11.22.git"
+                  >https://github.com/Ekaterina-2022/Consilium_11.22.git</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="page-info">
+        <div>
+          <a href="https://github.com/Ekaterina-2022">Visit my GitHub</a>
+        </div>
+        <div>2022</div>
+        <div>
+          <a href="https://rs.school/js/"
+            ><img
+              src="assets\img\rs_school_js.svg"
+              alt=""
+              width="60px"
+              height="50px"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
